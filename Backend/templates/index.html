@@ -2,10 +2,9 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>AUCSS小程序后台管理系统</title>
+    <title>AUCSS管理系统</title>
     <meta name="keywords" content="设置关键词..."/>
     <meta name="description" content="设置描述..."/>
-    <meta name="author" content="DeathGhost"/>
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <link rel="stylesheet" type="text/css" href="static/css/style.css"/>
@@ -32,9 +31,6 @@
 
         <nav class="side-menu content mCustomScrollbar" data-mcs-theme="minimal-dark">
             <h2>
-                <a href="" class="InitialPage"><i class="icon-dashboard"></i>数据概况</a>
-            </h2>
-            <h2>
                 <a href="{{url_for('admin.members')}}" class="InitialPage"><i class="icon-user"></i>会员管理</a>
             </h2>
             <h2>
@@ -54,9 +50,6 @@
             </div>
             <div class="hd-rt">
                 <ul>
-                    <li>
-                        <a><i class="icon-user"></i>管理员:<em>Zach</em></a>
-                    </li>
                     <li>
                         <a href="javascript:void(0)" id="JsSignOut"><i class="icon-signout"></i>安全退出</a>
                     </li>

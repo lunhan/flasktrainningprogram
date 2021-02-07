@@ -2,7 +2,7 @@ from flask import *
 
 admin = Blueprint('admin', __name__)
 
-@admin.route('/partner')
+@admin.route('/')
 def partner():
     return render_template('partner.html')
 
