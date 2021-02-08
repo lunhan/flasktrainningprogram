@@ -1,10 +1,9 @@
 from flask import *
-from page.page import page
+from page.page import pages
 
 app = Flask(__name__)
 
-#TODO:
-app.register_blueprint(page)
+app.register_blueprint(pages)
 
 if __name__ == '__main__':
     app.run()
